@@ -92,8 +92,15 @@ body{
 }
 .wrapper {
     text-align: center;
-    margin-bottom: 30px;
+    padding: 20px;
 }
 h1 {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: linear-gradient(45deg, #ff7f50, #4169e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
