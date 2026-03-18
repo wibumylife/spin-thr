@@ -11,24 +11,7 @@ body{
     min-height: 100vh;
     background: #292929;
 }
-.bg {
-    position: fixed;
-    width: 20%;
-    height: 20%;
-    background: url('bg.png') repeat-y;
-    background-size: cover;
-    filter: brightness(0.6);
-    z-index: -1;
-    animation: scrollBg 10s linear infinite;
-}
-@keyframes scrollBg {
-    0% {
-        background-position: 0 100%;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
+
 }
 .container{
     position: relative;
