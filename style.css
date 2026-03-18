@@ -124,10 +124,10 @@ body{
 }
 .wrapper {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 h1 {
-    font-size: 32px;
+    font-size: 6vw;
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 30px;
