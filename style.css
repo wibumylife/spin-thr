@@ -95,12 +95,17 @@ body{
     padding: 20px;
 }
 h1 {
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 800;
     text-align: center;
-    background: linear-gradient(45deg, #64ff50, #2a2a2a);
+    background: linear-gradient(270deg, #ff7f50, #4169e1, #ff00ff);
+    background-size: 600% 600%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: gradientMove 5s ease infinite;
+}
+@keyframes gradientMove {
+    0% { background-position: 0% }
+    50% { background-position: 100% }
+    100% { background-position: 0% }
 }
