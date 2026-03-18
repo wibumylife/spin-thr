@@ -39,15 +39,15 @@ body{
     margin-bottom: 30px;
     border: none;
     border-radius: 25px;
-    background: linear-gradient(45deg, #ff7f50, #ff00ff);
-    color: #fff;
+    background: linear-gradient(45deg, #50be51, #ffffff);
+    color: #000000;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
 }
 .btn:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #ff00ff;
+    box-shadow: 0 0 15px #20d632;
 }
 .container {
     position: relative;
@@ -148,7 +148,7 @@ h1 {
     letter-spacing: 2px;
     margin-bottom: 30px;
     text-align: center;
-    background: linear-gradient(270deg, #ff7f50, #4169e1, #ff00ff);
+    background: linear-gradient(270deg, #35ce35, #465fad, #58868e);
     background-size: 600% 600%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
