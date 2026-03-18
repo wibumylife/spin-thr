@@ -41,6 +41,27 @@
 
             value += Math.ceil(Math.random() * 3600);
         }
+const container = document.querySelector('.ramadhan-bg');
+
+for (let i = 0; i < 10; i++) { // jumlah sedikit biar nggak rame
+    let img = document.createElement('img');
+    img.src = 'bg.png'; // gambar duit lo
+    img.classList.add('money');
+
+    // posisi random
+    img.style.left = Math.random() * 100 + 'vw';
+
+    // ukuran random
+    img.style.width = (30 + Math.random() * 40) + 'px';
+
+    // speed random
+    img.style.animationDuration = (5 + Math.random() * 10) + 's';
+
+    // delay random
+    img.style.animationDelay = Math.random() * 5 + 's';
+
+    container.appendChild(img);
+}
     </script>
 </body>
 </html>
