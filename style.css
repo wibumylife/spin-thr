@@ -10,6 +10,10 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #292929;
+    background: url('bg.png') repeat-y;
+    background-size: cover;
+    animation: scrollBg 10s linear infinite;
+}
 }
 .container{
     position: relative;
