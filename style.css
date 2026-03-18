@@ -34,12 +34,10 @@ body{
         transform: translateY(-100px);
     }
 }
-.container {
+.container{
     position: relative;
-    width: 90vw;
-    max-width: 350px;
-    height: 90vw;
-    max-height: 350px;
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
