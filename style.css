@@ -34,6 +34,21 @@ body{
         transform: translateY(-100px);
     }
 }
+.btn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #ff7f50, #ff00ff);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff00ff;
+}
 .container {
     position: relative;
     width: 90vw;
